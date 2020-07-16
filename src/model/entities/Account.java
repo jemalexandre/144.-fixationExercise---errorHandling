@@ -64,6 +64,7 @@ public class Account {
 		balance -= amount;
 	}
 	
+	@Override
 	public String toString() {
 		return ("New balance: " + String.format("%.2f", balance));
 	}
